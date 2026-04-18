@@ -1,0 +1,39 @@
+[package]
+name = "axeon"
+version = "0.1.0"
+edition = "2021"
+description = "Axeon - Modern Programming Language (TypeScript + Rust mix) using LLVM"
+autobins = false
+
+[lib]
+name = "axeon"
+path = "src/lib.rs"
+
+[[bin]]
+name = "axeon"
+path = "src/bin/main.rs"
+
+[[bin]]
+name = "axeon-x86"
+path = "src/bin/axeon_x86.rs"
+
+[[bin]]
+name = "axeon-arm"
+path = "src/bin/axeon_arm.rs"
+
+[[bin]]
+name = "axeon-riscv"
+path = "src/bin/axeon_riscv.rs"
+
+[[bin]]
+name = "axeon-i686"
+path = "src/bin/axeon_i686.rs"
+
+[features]
+# Allow GCC as a linker fallback. When enabled and GCC is used, a warning is printed.
+gcc_linker = []
+# Allow GCC as an assembler fallback. When enabled and GCC is used, a warning is printed.
+gcc_assembler = []
+# Allow GCC passthrough for -m16 mode (16-bit real-mode boot code).
+# When enabled and GCC is used, a prominent warning is printed.
+gcc_m16 = []

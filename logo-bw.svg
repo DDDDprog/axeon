@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="64" fill="#000000"/>
+  
+  <!-- Axe symbol - stylized A -->
+  <g transform="translate(256, 256)">
+    <!-- Main A shape -->
+    <path d="M0 -180 L-120 180 L-40 180 L-20 120 L20 120 L40 180 L120 180 L0 -180Z" 
+          fill="#ffffff"/>
+    
+    <!-- Cross bar -->
+    <path d="M-70 60 L70 60 L50 0 L-50 0Z" fill="#000000"/>
+    
+    <!-- Inner cut -->
+    <path d="M0 -140 L-80 140 L-20 140 L-10 100 L10 100 L20 140 L80 140 L0 -140Z" 
+          fill="#000000"/>
+  </g>
+  
+  <!-- Orbital ring -->
+  <ellipse cx="256" cy="256" rx="220" ry="80" fill="none" stroke="#ffffff" 
+           stroke-width="3" opacity="0.5" transform="rotate(-20 256 256)"/>
+  
+  <!-- Accent dots -->
+  <circle cx="380" cy="120" r="8" fill="#ffffff" opacity="0.6"/>
+  <circle cx="130" cy="400" r="6" fill="#ffffff" opacity="0.5"/>
+  <circle cx="400" cy="350" r="5" fill="#ffffff" opacity="0.4"/>
+</svg>
