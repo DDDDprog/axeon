@@ -1,3 +1,5 @@
+![Axeon Logo](logo.svg)
+
 # Axeon Programming Language
 
 A modern compiled language mixing TypeScript and Rust syntax, built with Rust and LLVM.
