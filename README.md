@@ -1,4 +1,4 @@
-![Axeon Logo](logo.svg)
+![Axeon Logo](logo-bw.svg)
 
 # Axeon Programming Language
 
