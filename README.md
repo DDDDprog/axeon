@@ -3,7 +3,6 @@
 A modern compiled language mixing TypeScript and Rust syntax, built with Rust and LLVM.
 
 <p align="center">
-  <img src="logo.svg" alt="Axeon" width="200"/>
   <br/>
   <img src="https://img.shields.io/badge/version-0.1.0-blue" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
