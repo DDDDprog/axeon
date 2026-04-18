@@ -2,7 +2,7 @@
 
 # Axeon Programming Language
 
-A modern compiled language mixing TypeScript and Rust syntax, built with Rust and LLVM.
+A modern compiled language mixing TypeScript and Rust syntax, built with Rust .
 
 <p align="center">
   <br/>
