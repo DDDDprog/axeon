@@ -15,7 +15,7 @@ A modern compiled language mixing TypeScript and Rust syntax, built with Rust an
 
 - **Modern Syntax**: `fn`, `let`, `mut`, `class`, `->` return types
 - **Type Safety**: Strong typing with type inference
-- **LLVM Backend**: High-performance compilation
+- **Native Backend**: High-performance compilation
 - **Zero Dependencies**: Self-contained compiler
 - **Cross-Platform**: x86_64, ARM64, RISC-V
 
